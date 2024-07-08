@@ -1,0 +1,230 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/app/home/page.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_bg__jdPqC {
+  font-family: MavenPro;
+  background: #fff;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden auto;
+}
+.page_bg__jdPqC .page_bgImg__kZMab {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.page_bg__jdPqC .page_bgImgInner1__4xCV6 {
+  position: relative;
+  width: 449px;
+  height: 998px;
+}
+.page_bg__jdPqC .page_bgImgInner2__xBjtq {
+  position: relative;
+  margin-top: 164px;
+  width: 470px;
+  height: 753px;
+}
+.page_bg__jdPqC .page_bgImgInner3___A_HV {
+  position: relative;
+  margin-top: 250px;
+  width: 469px;
+  height: 900.7px;
+}
+.page_bg__jdPqC .page_bgImgInner4__odBKW {
+  position: relative;
+  right: 0;
+  margin-top: 102px;
+  width: 563px;
+  height: 1086px;
+}
+
+.page_container__Pi1BL {
+  min-height: 100vh;
+  width: auto;
+  max-width: 1440px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin: 0 0 62px;
+  padding: 0px 80px 40px 80px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+}
+.page_container__Pi1BL .page_header__6TURh {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: #fff;
+  left: 0;
+  height: auto;
+  padding: 0 80px;
+}
+.page_container__Pi1BL .page_header__6TURh .page_titleContainer__7XKfs {
+  box-sizing: content-box;
+  padding: 50px 0 10px 0;
+  width: auto;
+  max-width: 1440px;
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 46px;
+  border-bottom: solid 1px var(--medium-dark-grey);
+  margin: 0 auto;
+}
+.page_container__Pi1BL .page_bgImgTop__CskTk {
+  display: none;
+}
+.page_container__Pi1BL .page_content__BRae2 {
+  width: 820px;
+  height: auto;
+}
+.page_container__Pi1BL .page_footer__D6vpg {
+  margin-top: 100px;
+  height: 67px;
+  flex-grow: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+  gap: 15px;
+  padding: 20px 0;
+  border-top: solid 1px var(--medium-dark-grey);
+  color: #484848;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+  .page_bg__jdPqC .page_bgImg__kZMab {
+    display: none;
+  }
+  .page_container__Pi1BL .page_header__6TURh .page_titleContainer__7XKfs {
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  .page_container__Pi1BL .page_bgImgTop__CskTk {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 117px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .page_container__Pi1BL .page_footer__D6vpg {
+    width: calc(100% - 40px);
+    margin: 100px auto 30px;
+  }
+  .page_container__Pi1BL {
+    padding: 0;
+  }
+  .page_container__Pi1BL .page_content__BRae2 {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    height: auto;
+  }
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/Fractopus/index.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Fractopus_content1__f8_Tw {
+  margin-top: 240px;
+  color: #231F20;
+  width: 100%;
+}
+.Fractopus_content1__f8_Tw h1 {
+  font-size: 120px;
+  font-weight: bold;
+}
+.Fractopus_content1__f8_Tw p {
+  width: 484px;
+  font-size: 28px;
+  font-weight: medium;
+}
+.Fractopus_content1__f8_Tw .Fractopus_text__Rfuf8 {
+  margin-top: 70px;
+  font-size: 18px;
+  font-weight: regular;
+  line-height: 26px;
+}
+.Fractopus_content1__f8_Tw .Fractopus_text__Rfuf8 span {
+  display: block;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .Fractopus_content1__f8_Tw {
+    margin-top: 40px;
+  }
+  .Fractopus_content1__f8_Tw h1 {
+    font-size: 70px;
+    font-weight: bold;
+  }
+  .Fractopus_content1__f8_Tw p {
+    font-size: 20px;
+    width: 100%;
+  }
+  .Fractopus_content1__f8_Tw .Fractopus_text__Rfuf8 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 50px;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/Protocol/index.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Protocol_protocol__79xBV {
+  width: 100%;
+  height: auto;
+  margin-top: 160px;
+}
+.Protocol_protocol__79xBV h1 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+.Protocol_protocol__79xBV .Protocol_desc__19_pq {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 500px) {
+  .Protocol_icData__aU77G {
+    width: 348px;
+    height: 336px;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/.pnpm/next@14.2.4_react-dom@18.3.1_react@18.3.1_sass@1.77.6/node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/UseCases/index.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.UseCases_UseCases__LSzY0 {
+  margin-top: 160px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.UseCases_UseCases__LSzY0 h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+.UseCases_UseCases__LSzY0 p.UseCases_sub__DmEDS {
+  font-size: 20px;
+  color: #f23a00;
+}

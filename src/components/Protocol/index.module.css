@@ -1,0 +1,25 @@
+.protocol {
+  width: 100%;
+  height: auto;
+  margin-top: 160px;
+}
+
+.protocol h1 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.protocol .desc {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 500px) {
+  .icData {
+    width: 348px;
+    height: 336px;
+  }
+}

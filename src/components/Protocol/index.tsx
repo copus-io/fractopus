@@ -81,6 +81,7 @@ const Protocol = () => {
                   display: "inline-block",
                 }}
                 href="https://www.xanadu.net/"
+                tárget="_blank"
               >
                 https://www.xanadu.net/
               </a>
@@ -90,6 +91,7 @@ const Protocol = () => {
                   textDecoration: "underline",
                   display: "inline-block",
                 }}
+                tárget="_blank"
                 href="https://www.activism.net/cypherpunk/manifesto.html"
               >
                 {url}

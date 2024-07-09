@@ -18,6 +18,9 @@
 }
 
 @media screen and (max-width: 500px) {
+  .protocol {
+    margin-top: 10px;
+  }
   .icData {
     width: 348px;
     height: 336px;

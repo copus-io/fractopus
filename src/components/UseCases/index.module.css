@@ -15,3 +15,9 @@
   font-size: 20px;
   color: #f23a00;
 }
+
+@media screen and (max-width: 500px) {
+  .UseCases {
+    margin-top: 10px;
+  }
+}

@@ -26,42 +26,95 @@ const Home = () => {
     },
   ];
   const scrollRef = useRef<any>(null);
-  const [opacity, setOpacity] = useState(1);
-  const [opacity2, set2Opacity] = useState(1);
-  const [opacity3, set3Opacity] = useState(1);
-  const [opacity4, set4Opacity] = useState(1);
+  const [opacity, setOpacity] = useState(0);
+  const [opacity2, set2Opacity] = useState(0);
+  const [opacity3, set3Opacity] = useState(0);
+  const [opacity4, set4Opacity] = useState(0);
+
+  const [isHover, setIsHover] = useState(true);
   useEffect(() => {
+    // 获取scrollRef.current 的高度
+
+    console.log(
+      "scrollRef.current.scrollHeight",
+      scrollRef.current.scrollHeight
+    );
+    const scrollHeight = scrollRef.current.scrollHeight;
     const handler = function (this: HTMLElement, e: Event) {
       // scrollHeight是可滚动区域的总高度， innerHeight是可视窗口的高度， scrollTop是盒子可视窗口的最顶部，到盒子可滚动上限的距离
       // 还有一个可以性能优化的点， this.scrollHeight 在没有获取新数据时，是固定的，可以存起来成一个变量，获取新数据再更新，减少重排重绘
-      // console.log("this.scrollHeight", this.scrollTop);
-      // 367  916 1493 1916  2530
-      // 滚动条距离顶部的距离小于367， 第一个图片的透明度逐渐变为1
-      if (this.scrollTop === 0) {
-        setOpacity(1);
+      // scrollHeight 从0滚动12.5%的时候，
+      if (this.scrollTop > 0) {
+        setIsHover(false);
+      } else {
+        setIsHover(true);
       }
-      if (this.scrollTop > 100 && this.scrollTop < 367) {
-        setOpacity(1 - this.scrollTop / 367);
-      }
-      // 滚动条距离顶部的距离大于916， 第二个图片的透明度逐渐变为1 第一个图片的透明度逐渐变为0
-      if (this.scrollTop > 367 && this.scrollTop < 916) {
-        set2Opacity(1 - (this.scrollTop - 916) / 587);
-        setOpacity(1 - (this.scrollTop - 916) / 587);
-      }
-      // 滚动条距离顶部的距离大于1493， 第三个图片的透明度逐渐变为1 第二个图片的透明度逐渐变为0 第一个图片的透明度逐渐变为0
-      if (this.scrollTop > 1493 && this.scrollTop < 1916) {
-        set3Opacity(1 - (this.scrollTop - 1493) / 423);
-        set2Opacity(1 - (this.scrollTop - 1493) / 423);
-        setOpacity(1 - (this.scrollTop - 1493) / 423);
-      }
-      // 滚动条距离顶部的距离大于1916， 第四个图片的透明度逐渐变为1 第三个图片的透明度逐渐变为0 第二个图片的透明度逐渐变为0 第一个图片的透明度逐渐变为0
-      if (this.scrollTop > 1916 && this.scrollTop < 2530) {
-        set4Opacity(1 - (this.scrollTop - 1916) / 614);
-        set3Opacity(1 - (this.scrollTop - 1916) / 614);
-      }
-      // 滚动条距离顶部的距离大于2530， 第四个图片的透明度为1 第三个图片的透明度为1 第二个图片的透明度为1 第一个图片的透明度为1
-      if (this.scrollTop > 2530) {
-        set4Opacity(1);
+      if (!window.matchMedia("(max-width: 500px)").matches) {
+        const rate = this.scrollTop / scrollHeight;
+        if (rate < 0.125 && rate >= 0) {
+          // 第一个图从透明度从0 - 1;
+          // 其他透明度为0
+          set2Opacity(0);
+          set3Opacity(0);
+          set4Opacity(0);
+          setOpacity(rate * 8);
+        }
+        // scrollHeight 从12.5滚动25%的时候，
+        else if (rate < 0.25 && rate >= 0.125) {
+          // 第一个图从透明度从1 - 0
+          set2Opacity(0);
+          set3Opacity(0);
+          set4Opacity(0);
+          setOpacity(1 - (rate - 0.125) * 8);
+        }
+        // scrollHeight 从25滚动37.5%的时候，
+        else if (rate < 0.375 && rate >= 0.25) {
+          // 第二个图从透明度从0 - 1;
+          setOpacity(0);
+          set3Opacity(0);
+          set4Opacity(0);
+          set2Opacity((rate - 0.25) * 8);
+        }
+        // scrollHeight 从37.5滚动50%的时候，
+        else if (rate < 0.5 && rate >= 0.375) {
+          // 第二个图从透明度从1 - 0
+          setOpacity(0);
+          set3Opacity(0);
+          set4Opacity(0);
+          set2Opacity(1 - (rate - 0.375) * 8);
+        }
+        // scrollHeight 从50滚动62.5%的时候，
+        else if (rate < 0.625 && rate >= 0.5) {
+          // 第三个图从透明度从0 - 1;
+          set2Opacity(0);
+          setOpacity(0);
+          set4Opacity(0);
+          set3Opacity((rate - 0.5) * 8);
+        }
+        // scrollHeight 从62.5滚动75%的时候，
+        else if (rate < 0.75 && rate >= 0.625) {
+          // 第三个图从透明度从1 - 0
+          set2Opacity(0);
+          setOpacity(0);
+          set4Opacity(0);
+          set3Opacity(1 - (rate - 0.625) * 8);
+        }
+        // scrollHeight 从75滚动87.5%的时候，
+        else if (rate < 0.875 && rate >= 0.75) {
+          // 第四个图从透明度从0 - 1;
+          set3Opacity(0);
+          set2Opacity(0);
+          setOpacity(0);
+          set4Opacity((rate - 0.75) * 8);
+        }
+        // scrollHeight 从87.5滚动100%的时候，
+        else if (rate <= 1 && rate >= 0.875) {
+          // 第四个图从透明度从1 - 0
+          set3Opacity(0);
+          set2Opacity(0);
+          setOpacity(0);
+          set4Opacity(1 - (rate - 0.875) * 8);
+        }
       }
     };
     scrollRef.current?.addEventListener("scroll", handler);
@@ -86,7 +139,12 @@ const Home = () => {
     <div className={styles.bg} ref={scrollRef}>
       <div className={styles.container}>
         <div className={styles.header}>
-          <div className={styles.titleContainer}>
+          <div
+            className={styles.titleContainer}
+            style={{
+              borderBottom: !isHover ? "none" : "1px solid #696969",
+            }}
+          >
             {title.map((item: any, index: any) => (
               <div key={index} className="flex items-center mr-[5px]">
                 <a
@@ -118,7 +176,7 @@ const Home = () => {
         </div>
         <div className={styles.footer}>
           <div className="flex items-center">
-            <div>© 2024 S31 Labs</div>
+            <div>© {new Date().getFullYear()} S31 Labs</div>
           </div>
         </div>
       </div>

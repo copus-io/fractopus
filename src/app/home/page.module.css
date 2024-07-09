@@ -107,7 +107,8 @@
   border-bottom: solid 1px var(--medium-dark-grey) !important;
 }
 
-.container .bgImgTop {
+.container .bgImgTop,
+.container .div {
   display: none;
 }
 
@@ -146,13 +147,17 @@
     gap: 10px;
     padding: 10px 0;
   }
+  .container .div {
+    display: block;
+  }
   .container .bgImgTop {
     display: block;
     width: 100%;
     height: auto;
-    margin-top: 117px;
+    margin-top: 100px;
     display: flex;
     justify-content: flex-end;
+    position: absolute;
   }
   .container .footer {
     width: calc(100% - 40px);

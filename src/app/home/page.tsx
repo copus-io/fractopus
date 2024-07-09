@@ -155,6 +155,7 @@ const Home = () => {
             ))}
           </div>
         </div>
+        <div className={styles.div} style={{ height: "400px" }}></div>
         <div className={styles.bgImgTop}>
           <img src={icFracTop.src} className={styles.img} alt="ic-frac" />
         </div>

@@ -4,7 +4,7 @@ import icData from "../../../public/assets/img/ic-data.webp";
 const Protocol = () => {
   const p1 = `Fractopus is an on-chain protocol enabling URIs to create interconnections through percentage allocations. Such interconnections are created when the owner of a URI addresses other URIs as its sources and allocates a share percentage for each of them. (For example, URIa shares 30% with URIb and 20% with URIc with the rest kept to itself.) Additionally, the protocol forms an internet-scale graph established by each URI owner interconnecting in a peer-to-peer way. `;
   const span1 = `The protocol's name.`;
-  const p2 = `“p": "fractopus"`;
+  const p2 = `"p": "fractopus"`;
 
   const span2 = `URI of the webpage that the URI owner wants to include in the fractopus network.`;
   const p3 = `"uri": "URI"`;

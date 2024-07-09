@@ -2,20 +2,14 @@ import styles from "./index.module.scss";
 import icData from "../../../public/assets/img/ic-data.webp";
 
 const Protocol = () => {
-  const p1 = `Fractopus is an on-chain protocol enabling URIs to create
-        interconnections through percentage allocations. It aims to form an
-        internet-scale graph established by each URI owner in a peer-to-peer
-        way. Such interconnections appear when the owner of a URI addresses
-        other URIs as its sources and allocates a share percentage for each of
-        them. (For example, URIa shares 30% with URIb and 20% with URIc with the
-        rest kept to itself.)`;
+  const p1 = `Fractopus is an on-chain protocol enabling URIs to create interconnections through percentage allocations. Such interconnections are created when the owner of a URI addresses other URIs as its sources and allocates a share percentage for each of them. (For example, URIa shares 30% with URIb and 20% with URIc with the rest kept to itself.) Additionally, the protocol forms an internet-scale graph established by each URI owner interconnecting in a peer-to-peer way. `;
   const span1 = `The protocol's name.`;
   const p2 = `“p": "fractopus"`;
 
   const span2 = `URI of the webpage that the URI owner wants to include in the fractopus network.`;
   const p3 = `"uri": "URI"`;
 
-  const span3 = `For example, if I want to connect this page to the Fractopus network, I should put it as:`;
+  const span3 = `For example, to connect this page to the Fractopus network, format as such: `;
   const p4 = `"uri":"https://www.fractopus.net/"`;
 
   const span4 = `List of URIs that the owner addresses as the sources for the subject URI and a percentage allocation for each URI.`;
@@ -74,7 +68,7 @@ const Protocol = () => {
           </p>
           <p style={{ marginTop: "20px" }}>
             <span>
-              For example, if I want to address{" "}
+              For example, to address{" "}
               <a
                 style={{
                   textDecoration: "underline",
@@ -84,8 +78,8 @@ const Protocol = () => {
                 target="_blank"
               >
                 https://www.xanadu.net/
-              </a>
-              as a source and share 10% with it, I also want to address{" "}
+              </a>{" "}
+              as a source and share 10% with it, and address{" "}
               <a
                 style={{
                   textDecoration: "underline",
@@ -96,7 +90,7 @@ const Protocol = () => {
               >
                 {url}
               </a>
-              as a source and share 5% with it. Then I should put it as:
+              as a source and share 5% with it.format as such:
             </span>
             <br />
 

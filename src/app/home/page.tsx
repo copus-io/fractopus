@@ -34,12 +34,7 @@ const Home = () => {
   const [isHover, setIsHover] = useState(true);
   useEffect(() => {
     // 获取scrollRef.current 的高度
-
-    console.log(
-      "scrollRef.current.scrollHeight",
-      scrollRef.current.scrollHeight
-    );
-    const scrollHeight = scrollRef.current.scrollHeight;
+    const scrollHeight = scrollRef.current.scrollHeight + 40;
     const handler = function (this: HTMLElement, e: Event) {
       // scrollHeight是可滚动区域的总高度， innerHeight是可视窗口的高度， scrollTop是盒子可视窗口的最顶部，到盒子可滚动上限的距离
       // 还有一个可以性能优化的点， this.scrollHeight 在没有获取新数据时，是固定的，可以存起来成一个变量，获取新数据再更新，减少重排重绘

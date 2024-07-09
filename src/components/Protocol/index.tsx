@@ -1,5 +1,5 @@
-import styles from "./index.module.scss";
 import icData from "../../../public/assets/img/ic-data.webp";
+import styles from "./index.module.scss";
 
 const Protocol = () => {
   const p1 = `Fractopus is an on-chain protocol enabling URIs to create interconnections through percentage allocations. Such interconnections are created when the owner of a URI addresses other URIs as its sources and allocates a share percentage for each of them. (For example, URIa shares 30% with URIb and 20% with URIc with the rest kept to itself.) Additionally, the protocol forms an internet-scale graph established by each URI owner interconnecting in a peer-to-peer way. `;
@@ -88,9 +88,8 @@ const Protocol = () => {
                 target="_blank"
                 href="https://www.activism.net/cypherpunk/manifesto.html"
               >
-                {" "}
                 {url}
-              </a>
+              </a>{" "}
               as a source and share 5% with it.format as such:
             </span>
             <br />

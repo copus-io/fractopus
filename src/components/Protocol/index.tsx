@@ -88,6 +88,7 @@ const Protocol = () => {
                 target="_blank"
                 href="https://www.activism.net/cypherpunk/manifesto.html"
               >
+                {" "}
                 {url}
               </a>
               as a source and share 5% with it.format as such:

@@ -46,6 +46,10 @@
   height: 1086px;
 }
 
+.manifesto {
+  margin-top: 110px;
+}
+
 .container {
   min-height: 100vh;
   height: auto;

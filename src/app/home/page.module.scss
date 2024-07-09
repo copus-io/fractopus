@@ -47,6 +47,10 @@
   }
 }
 
+.manifesto {
+  padding-top: 110px;
+}
+
 .container {
   min-height: 100vh;
   width: auto;
@@ -128,6 +132,8 @@
 
   .container {
     .header {
+      padding: 0;
+
       .titleContainer {
         width: calc(100% - 40px);
         display: flex;
@@ -146,6 +152,8 @@
       margin-top: 117px;
       display: flex;
       justify-content: flex-end;
+      margin-top: 180px;
+
     }
 
     .footer {

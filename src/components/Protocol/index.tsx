@@ -29,6 +29,8 @@ const Protocol = () => {
         `;
   const url = `https://www.activism.net/cypherpunk
   /manifesto.html`;
+
+  const p7 = ` Finally, a string which contains the same Web3 wallet address as in the transaction's "From" field must be placed visibly on the designated URI page. Fractopus crawlers will match the string with the on-chain data to validate the ownership of the URI. `;
   const style = {
     color: "#2191fb",
     marginLeft: "50px",
@@ -103,12 +105,7 @@ const Protocol = () => {
             considered valid.
           </p>
         </div>
-        <p style={{ marginTop: "20px" }}>
-          Additionally, a string that contains the same Web3 wallet address as
-          the one in the transaction's "From" field needs to be placed visibly
-          on the designated URI page. Fractopus crawlers will match the string
-          with the on-chain data to validate the ownership of the URI.
-        </p>
+        <p style={{ marginTop: "20px" }}>{p7}</p>
         <div
           style={{
             marginTop: "20px",

@@ -5,74 +5,14 @@ interface FractopusProps {
 }
 
 const Fractopus = (props: FractopusProps) => {
-  const span1 = `Today's internet is an ancient ocean teeming with single-cell content.
-          These single cells float around, get discovered by content consumers,
-          and gather nutrients (exposure & financial income) for their growth.
-          They form colonies to more effectively collect nutrition. While these
-          colonies can become large and influential, they remain merely
-          quantitative accumulations of single cells instead of complex
-          organisms. To evolve into complex organisms, the single cells must
-          start establishing connections and sharing nutrients. Such a
-          transformation will give rise to a new creature in the internet ocean
-          — Fractopus.`;
+  const span1 = `Consider the ancient, single-celled organism. Floating through the primordial ocean, bouncing off billions of other single cells, they each search for nutrients. To grow, the organisms form colonies around sources of nutrition. Clumping together, these colonies grow massive, but not connected. They are merely accumulations of single cells - not a complex organism. Like this, the modern internet teems with billions of single-celled pieces of content hunting for nutrients: exposure and financial income. So they stack into towers, touching but not connected. However, evolution cannot be stopped. In the internet ocean, a complex organism has arrived: The Fractopus.`;
   const span2 = `
-        Fractopus is a unique type of octopus that expands in a fractal
-          structure. Unlike traditional octopuses with eight tentacles, a
-          fractopus can have varying numbers of tentacles. Each tentacle is
-          itself a self-similar fractopus. The size and maturity of a fractopus
-          are gauged by the number of its tentacles. A mature fractopus can have
-          thousands of tentacles and thus be connected to countless other
-          fractal-fractopuses. A fractal-fractopus can even outgrow its source,
-          provided it adds more tentacles.
-    `;
-  const span3 = `The term "opus" in "Fractopus" signifies that it's a content creature.
-          It grows new tentacles only when new single cells (content) attach to
-          it. Rather than seizing the single cells, a fractopus lures them by
-          providing exposure, enabling them to be more easily discovered by
-          content consumers. In return, the single cell commits to channeling a
-          portion of its future nutrients to the fractopus. The size of this
-          portion can be set either by the single cell or predefined by the
-          fractopus as a joining criterion. A larger portion typically equates
-          to better exposure.`;
-  const span4 = `A single cell can link to multiple fractopuses and negotiate distinct
-          agreements with each. These agreements foster natural selection among
-          fractopuses because single cells will only connect with content that
-          can offer valuable exposure. This encourages fractopuses to become
-          valuable content providers and actively promote themselves. In doing
-          so, they attract more single cells to become their tentacles,
-          benefiting from their nutrients and that of their tentacles.
-       `;
-  const span5 = `A fractopus can capture nutrients with any part of its body since each
-          nerve-ending in its tentacles is also a fractopus. Upon acquiring
-          nutrients, it automatically funnels it to all connected fractopuses,
-          retaining the remainder for itself. Most often, a source-fractopus
-          also has its own sources and agreements. The nutrients are thus
-          distributed according to these agreements, branching out until they
-          flow through every fractopus directly or indirectly linked to the
-          original capture.`;
-  const span6 = `To ensure optimal efficiency, the nutrient flow should be as
-          frictionless as possible. Likewise, content and agreements should be
-          safeguarded from abuse and manipulation to maintain the health of the
-          fractopus. Blockchain technology emerges as the best candidate to
-          serve as the fractopus' nervous and immune systems, as well as its
-          guarantee of freedom. A faster, more frictionless nervous system
-          enables better movement, attracting more single cells. Additionally, a
-          robust immune system is crucial for the secure storage of content and
-          agreements. Also, a fractopus is not meant to be confined to an
-          aquarium; it should enjoy freedom in a decentralized internet ocean.
-      `;
-  const span7 = `We can expect to see various fractopuses evolving in different areas
-          of the internet ocean. As content creatures, they might focus on
-          different themes, occasionally finding synergies. This allows for a
-          "tentacle-shake," akin to a handshake but more complex. A
-          tentacle-shake can connect multiple tentacles, merging fractopuses
-          into a unified organism. Although this strengthens them by combining
-          their nutritional, nervous, and immune systems, it also exposes them
-          to each other's vulnerabilities. To mitigate this, a fractopus can
-          sever its tentacles if they become redundant or compromised.`;
-
-  const span8 = `Currently, the general internet experience revolves around searching and ingesting feeds, granting significant power to search engines and platforms to control the open ocean. As more single cells evolve into fractopuses, the power to create, connect, and curate content will be democratized. 
-A novel internet experience is on the horizon.`;
+        Expanding into a fractal structure, each of the Fractopi’s tentacles is a self-similar Fractopus. The size and maturity of the Fractopus are gauged by the number of tentacles. A mature Fractopus can have thousands of tentacles, connecting to countless other fractal networks. Since a fractal-Fractopus may even outgrow its sources, the network size is truly boundless.`;
+  const span3 = `To grow the network of tentacles, the Fractopus, “opus” meaning content, can join with new single cells. Connections provide exposure to content and more connections illuminate paths for consumers to discover. Like all organisms, the Fractopus needs nutrients. A portion of new connections’ resources are channeled - but the portion of the revenue can be set on a link by link basis. The links are a symbiosis. More shared nutrients equates to more exposure.`;
+  const span4 = `Natural selection prevails. Agreements between new single cells and existing Fractopi will self-select; negotiations will occur, and connections offering increased exposure will be more valuable. Fractopi competing against eachother ensures the most attractive Fractopus remains in sight of new single cells. So, after countless connections are linked, the agreed-upon nutrient share will flow from all nerve endings to throughout the network. As the network grows with sub-Fractopi joining endlessly, the nutrients branch throughout automatically. `;
+  const span5 = `An evolutionary advantage of the Fractopus is the frictionless, secure nutrient flow throughout the network. The organism has a strong immune system - outside manipulation and abuse are resisted. Blockchain technology, serving as secure storage and robust communication, serve as the backbone protecting the Fractopus - the blockchain ensures better movement and a guarantee of freedom for the organism. The Fractopus cannot be confined to an aquarium; it enjoys freedom in a decentralized internet ocean. `;
+  const span6 = `As Fractopi spread throughout the vast decentralized ocean, each may find niches the organism flourishes in. These theme-niches are not exclusive to one Fractopus - synergies arise in the form of a “tentacle-shake,”akin to a complex handshake. The tentacle-shake can multiply, merging Fractopi into a unified organism. Although this most often strengthens the entire Fractopus network, if certain tentacle connections are not desired, Fractopi can be severed in an ever-changing nature. `;
+  const span7 = `Currently, the general internet experience revolves around searching and ingesting feeds, granting significant power to search engines and platforms to control the open ocean. As more single cells evolve into Fractopi, the power to create, connect, and curate content will be democratized. A novel internet experience is on the horizon.`;
 
   return (
     <div className={styles.content1}>
@@ -86,7 +26,6 @@ A novel internet experience is on the horizon.`;
         <span>{span5}</span>
         <span>{span6}</span>
         <span>{span7}</span>
-        <span>{span8}</span>
       </div>
     </div>
   );

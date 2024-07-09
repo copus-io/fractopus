@@ -89,14 +89,15 @@ const Home = () => {
           <div className={styles.titleContainer}>
             {title.map((item: any, index: any) => (
               <div key={index} className="flex items-center mr-[5px]">
-                <div
+                <a
+                  href={item.link}
                   style={{
                     cursor: "pointer",
                   }}
-                  onClick={() => goView(index)}
+                  onClick={() => {}}
                 >
                   {item.text}
-                </div>
+                </a>
               </div>
             ))}
           </div>
@@ -105,13 +106,13 @@ const Home = () => {
           <img src={icFracTop.src} className={styles.img} alt="ic-frac" />
         </div>
         <div className={styles.content}>
-          <div id="manifesto">
+          <div id="manifesto" className={styles.manifesto}>
             <Fractopus />
           </div>
-          <div id="protocol">
+          <div id="protocol" className={styles.manifesto}>
             <Protocol />
           </div>
-          <div id="use-cases">
+          <div id="use-cases" className={styles.manifesto}>
             <UseCases />
           </div>
         </div>

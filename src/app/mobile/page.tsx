@@ -62,13 +62,13 @@ const Home = () => {
           </div>
         </div>
         <div className={styles.content}>
-          <div id="manifesto">
+          <div id="manifesto" className={styles.manifesto}>
             <Fractopus isMobile={true} />
           </div>
-          <div id="protocol">
+          <div id="protocol" className={styles.manifesto}>
             <Protocol />
           </div>
-          <div id="use-cases">
+          <div id="use-cases" className={styles.manifesto}>
             <UseCases />
           </div>
         </div>

@@ -7,8 +7,8 @@ const UseCases = () => {
       <p style={{ marginTop: "20px" }}>
         Copus applies fractopus for revenue-sharing in a creative content
         network. Creative works often inspire one another as content creators
-        often wish for more audience. Copus enables content creators to
-        establish revenue-sharing and exposure exchanges between creative works.
+        often wish for a larger audience. Copus enables content creators to
+        establish revenue-sharing / exposure exchanges between creative works.
         In this way, the inspired works (branches) receive exposure from the
         inspiring works (sources) by sharing a percentage of their future
         revenue. Each source can deliberately curate its branches by featuring,

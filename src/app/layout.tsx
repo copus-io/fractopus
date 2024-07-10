@@ -16,7 +16,8 @@ export const metadata: Metadata = {
     description: "Fractopus: A Complex Organism Evolving from the Single Cells of the Internet",
     siteName: "Fractopus",
     images: [{
-      url: "https://static.copus.io/images/client/202407/test/65a4f47e4d76c906945b1bf7952cc16b.webp",
+      // url: "https://static.copus.io/images/client/202407/test/65a4f47e4d76c906945b1bf7952cc16b.webp",
+      url: "/src/app/test.jpg",
     }],
   },
 };

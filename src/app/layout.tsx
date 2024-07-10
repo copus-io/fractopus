@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: "Fractopus: A Complex Organism Evolving from the Single Cells of the Internet",
     siteName: "Fractopus",
     images: [{
-      url: "/public/assets/img/cover.webp",
+      url: "/cover.webp",
     }],
   },
 

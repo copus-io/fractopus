@@ -8,6 +8,18 @@ export const metadata: Metadata = {
   title: "Fractopus",
   keywords: "Fractopus,Connect",
   description: "Fractopus: A Complex Organism Evolving from the Single Cells of the Internet",
+  openGraph:
+  {
+    type: "website",
+    url: "https://www.fractopus.net",
+    title: "Fractopus",
+    description: "Fractopus: A Complex Organism Evolving from the Single Cells of the Internet",
+    siteName: "Fractopus",
+    images: [{
+      url: "/public/assets/img/cover.webp",
+    }],
+  },
+
 };
 
 export default function RootLayout({

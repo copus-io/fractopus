@@ -3,7 +3,9 @@ const UseCases = () => {
   return (
     <div className={styles.UseCases}>
       <h2>Use Cases</h2>
-      <p className={styles.sub}>Copus</p>
+      <p><a href="https://copus.io" target="_blank">
+        <span style={{ color: "#f23a00", fontSize: "20px" }}>Copus</span> </a>
+      </p>
       <p style={{ marginTop: "20px" }}>
         Copus applies fractopus for revenue-sharing in a creative content
         network. Creative works often inspire one another as content creators

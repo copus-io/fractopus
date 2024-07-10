@@ -78,12 +78,12 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: black;
   background: #fff;
 }
 
 a {
-  color: inherit;
+  color: black;
   text-decoration: none;
 }
 

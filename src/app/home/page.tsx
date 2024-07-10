@@ -1,6 +1,7 @@
 "use client";
+import UseCases from "@/components/UseCases";
 import Image from "next/image";
-import styles from "./page.module.scss";
+import { useEffect, useRef, useState } from "react";
 import icFrac from "../../../public/assets/img/ic-frac-1.webp";
 import icFrac2 from "../../../public/assets/img/ic-frac-2.webp";
 import icFrac3 from "../../../public/assets/img/ic-frac-3.webp";
@@ -8,8 +9,7 @@ import icFrac4 from "../../../public/assets/img/ic-frac-4.webp";
 import icFracTop from "../../../public/assets/img/ic-frac-top.webp";
 import Fractopus from "../../components/Fractopus";
 import Protocol from "../../components/Protocol";
-import UseCases from "@/components/UseCases";
-import { useEffect, useRef, useState } from "react";
+import styles from "./page.module.scss";
 const Home = () => {
   const title = [
     {
@@ -141,7 +141,7 @@ const Home = () => {
             }}
           >
             {title.map((item: any, index: any) => (
-              <div key={index} className="flex items-center mr-[5px]">
+              <div key={index} className="flex items-center mr-[5px] text-[30px]">
                 <a
                   href={item.link}
                   style={{

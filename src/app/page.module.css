@@ -17,6 +17,7 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  font-family: "Maven Pro";
 }
 
 .description a {
@@ -37,7 +38,8 @@
 
 .code {
   font-weight: 700;
-  font-family: var(--font-mono);
+  /* font-family: var(--font-mono); */
+  font-family: "Maven Pro";
 }
 
 .grid {

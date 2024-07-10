@@ -19,7 +19,6 @@ export const metadata: Metadata = {
       url: "https://static.copus.io/images/client/202407/test/65a4f47e4d76c906945b1bf7952cc16b.webp",
     }],
   },
-
 };
 
 export default function RootLayout({

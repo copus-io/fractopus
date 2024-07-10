@@ -76,12 +76,12 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   overflow: hidden;
+  font-family: 'Maven Pro';
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: #fff;
-  font-family: 'Maven Pro';
 }
 
 a {

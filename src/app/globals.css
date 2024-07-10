@@ -81,7 +81,7 @@ body {
 body {
   color: rgb(var(--foreground-rgb));
   background: #fff;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Maven Pro';
 }
 
 a {

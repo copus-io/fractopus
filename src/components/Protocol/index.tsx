@@ -1,4 +1,4 @@
-import icData from "../../../public/assets/img/ic-data.webp";
+import icData from "../../../public/assets/img/flow.svg";
 import styles from "./index.module.scss";
 
 const Protocol = () => {
@@ -24,7 +24,7 @@ const Protocol = () => {
   const url = `https://www.activism.net/cypherpunk
   /manifesto.html`;
 
-  const p7 = ` Finally, a string which contains the same Web3 wallet address as in the transaction's "From" field must be placed visibly on the designated URI page. Fractopus crawlers will match the string with the on-chain data to validate the ownership of the URI. `;
+  const p7 = `Finally, a string which contains the URI owner’s Web3 wallet address must be placed on the designated URI page for the Fractopus crawlers to capture. It indicates that the owner of the Web3 wallet address also owns the URI and facilities financial uses of the Fractopus network, such as revenue-sharing.`;
   const style = {
     color: "#2191fb",
     marginLeft: "50px",

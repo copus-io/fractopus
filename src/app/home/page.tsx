@@ -7,6 +7,7 @@ import icFrac2 from "../../../public/assets/img/ic-frac-2.webp";
 import icFrac3 from "../../../public/assets/img/ic-frac-3.webp";
 import icFrac4 from "../../../public/assets/img/ic-frac-4.webp";
 import icFracTop from "../../../public/assets/img/ic-frac-top.webp";
+import icLogo from "../../../public/assets/img/logo.svg";
 import Fractopus from "../../components/Fractopus";
 import Protocol from "../../components/Protocol";
 import styles from "./page.module.scss";
@@ -128,6 +129,7 @@ const Home = () => {
               borderBottom: !isHover ? "none" : "1px solid #696969",
             }}
           >
+            <img className={styles.logo} src={icLogo.src} alt="ic-data" />
             {title.map((item: any, index: any) => (
               <div
                 key={index}

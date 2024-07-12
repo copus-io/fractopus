@@ -85,6 +85,7 @@
   left: 0;
   height: auto;
   padding: 0 80px;
+  padding-top: 20px;
 }
 
 .container .header .titleContainer {
@@ -101,6 +102,13 @@
   gap: 46px;
   border-bottom: solid 1px var(--medium-dark-grey);
   margin: 0 auto;
+  position: relative;
+}
+
+.container .header .titleContainer .logo {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
 }
 
 .container .header .titleContainer:hover {
@@ -146,6 +154,10 @@
     flex-direction: column;
     gap: 10px;
     padding: 10px 0;
+    position: relative;
+  }
+  .container .header .titleContainer .logo {
+    display: none;
   }
   .container .div {
     display: block;

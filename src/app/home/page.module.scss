@@ -87,6 +87,7 @@
     left: 0;
     height: auto;
     padding: 0 80px;
+    padding-top: 20px;
 
     .titleContainer {
       box-sizing: content-box;
@@ -102,6 +103,13 @@
       gap: 46px;
       border-bottom: solid 1px var(--medium-dark-grey);
       margin: 0 auto;
+      position: relative;
+
+      .logo {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+      }
     }
 
     .titleContainer:hover {
@@ -154,8 +162,11 @@
         flex-direction: column;
         gap: 10px;
         padding: 10px 0;
+        position: relative;
 
-
+        .logo {
+          display: none;
+        }
       }
     }
 
